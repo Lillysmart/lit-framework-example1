@@ -13,7 +13,7 @@ console.log(LitElement)
        return html`<div>
        <header>
          <h1>Todo App</h1>
-        <td-adding></td-adding>
+       <td-adding></td-adding>
        </header>
        <main>
          <ul></ul>

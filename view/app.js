@@ -8,7 +8,7 @@ import { State  } from "../model/store.js";
 /**
  * @param {State} state
  * @returns {any}
- */
+ *//*
 export const app = (state) => {
   console.log(state);
 
@@ -17,5 +17,5 @@ export const app = (state) => {
   const taskAsArray = Object.values(tasks);
 
   //const taskAsArray = Array.isArray(tasks) ? tasks : Object.values(tasks);
-  return html;
-};
+  return 
+};*/

@@ -1,10 +1,10 @@
-import { templateString } from "./td-spacing-hepers.js";
+//import { templateString } from "./td-spacing-hepers.js";
 
 // const template = document.createElement("template");
 
 // template.innerHTML = templateString
 
-/**
+/*
  * @element td-spacing
  * @attr {'XS' | 'S' | 'M' | 'L' | 'XL'} left
  * @attr {'XS' | 'S' | 'M' | 'L' | 'XL'} right
