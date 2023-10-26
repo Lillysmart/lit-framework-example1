@@ -3,7 +3,7 @@ import {html,LitElement}from "/libs/lit-html.js"
 
 
 console.log(LitElement)
- export class App extends LitElement {
+ export class Adding extends LitElement {
   
   /**
    * 
@@ -11,7 +11,9 @@ console.log(LitElement)
    */
     render(){
        return html`<div>
+        <sl-button>Add Task</sl-button>
        <sl-dialog open label="New Task">
+        <form>
            <td-spacing bottom="XL">
              <sl-input filled name="title" label="Title" required></sl-input>
    
@@ -47,7 +49,7 @@ console.log(LitElement)
 
 }
 
-customElements.define("td-app" , App)
+customElements.define("td-adding" ,Adding)
 
 
 

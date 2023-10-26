@@ -1,4 +1,6 @@
-import "./components/td-app.js"
+ import "./components/td-app.js"
+ import "./components/td-spacing.js"
+ import "./components/td-adding.js"
 
 
  /*
@@ -29,5 +31,4 @@ const submitHandler = (event) => {
   dispatch(addTask({ title: title.toString() }));
   event.target.reset();
 };
-document.body.addEventListener("submit", submitHandler);
-*/
+document.body.addEventListener("submit", submitHandler);*/
