@@ -11,6 +11,8 @@ import { templateString } from "./td-spacing-hepers.js";
  * @attr {'XS' | 'S' | 'M' | 'L' | 'XL'} top
  * @attr {'XS' | 'S' | 'M' | 'L' | 'XL'} bottom
  */
+
+/*
 export class Spacing extends HTMLElement {
   #inner = this.attachShadow({ mode: 'closed' });
 
@@ -25,4 +27,4 @@ export class Spacing extends HTMLElement {
   }
 }
 
-customElements.define("td-spacing", Spacing);
+customElements.define("td-spacing", Spacing);*/

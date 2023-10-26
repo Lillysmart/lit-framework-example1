@@ -1,5 +1,7 @@
- import "./components/td-spacing.js"
- 
+import "./components/td-app.js"
+
+
+ /*
 import { dispatch, getState, subscribe } from "./model/store.js";
 import { addTask } from "./model/actions.js";
 
@@ -28,3 +30,4 @@ const submitHandler = (event) => {
   event.target.reset();
 };
 document.body.addEventListener("submit", submitHandler);
+*/
